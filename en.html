@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="assets/stethoscope_7054620.png">
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to the Telemedicine kiosk</h1>
+            <h2>Click the button below to continue</h2>
+      </div>
+    </div>
+    <br>
+    <div class ="button">
+        <button class="cta-button" onclick="redirect('qr')">Get Started</button>
+        <button class="cta-button">Consult with Doctor</button> 
+     </div>
+     <script>
+        function redirect(language) {
+            window.location.href = language + '.html';
+        }
+    </script>
+</body>
+</html>
